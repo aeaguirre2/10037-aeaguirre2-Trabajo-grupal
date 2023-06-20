@@ -1,0 +1,35 @@
+{
+    "peliculas": [
+      {
+        "titulo": "El Padrino",
+        "director": "Francis Ford Coppola",
+        "anio": "1972",
+        "genero": "Drama"
+      },
+      {
+        "titulo": "El Resplandor",
+        "director": "Stanley Kubrick",
+        "anio": "1980",
+        "genero": "Suspenso"
+      },
+      {
+        "titulo": "Regreso al Futuro",
+        "director": "Robert Zemeckis",
+        "anio": "1985",
+        "genero": "Ciencia ficción"
+      },
+      {
+        "titulo": "Pulp Fiction",
+        "director": "Quentin Tarantino",
+        "anio": "1994",
+        "genero": "Crimen"
+      },
+      {
+        "titulo": "Matrix",
+        "director": "The Wachowskis",
+        "anio": "1999",
+        "genero": "Acción"
+      }
+    ]
+  }
+  

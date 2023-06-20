@@ -1,0 +1,585 @@
+<!doctype html>
+<html class="h-100" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+  <meta name="description" content="A growing collection of ready to use components for the CSS framework Bootstrap 5">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="96x96" href=".t/img/favicon.png">
+  <meta name="author" content="Holger Koenemann">
+  <meta name="generator" content="Eleventy v2.0.0">
+  <meta name="HandheldFriendly" content="true">
+  <title>Stride HTML Template - Frontpage one</title>
+  <link rel="stylesheet" href="css/theme.min.css">
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+
+  <style>
+    /* inter-300 - latin */
+    @font-face {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 300;
+      font-display: swap;
+      src: local(''),
+        url('./fonts/inter-v12-latin-300.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('./fonts/inter-v12-latin-300.woff') format('woff');
+      /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    }
+
+    @font-face {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 500;
+      font-display: swap;
+      src: local(''),
+        url('./fonts/inter-v12-latin-500.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('./fonts/inter-v12-latin-500.woff') format('woff');
+      /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    }
+
+    @font-face {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 700;
+      font-display: swap;
+      src: local(''),
+        url('./fonts/inter-v12-latin-700.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('./fonts/inter-v12-latin-700.woff') format('woff');
+      /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    }
+
+    .celeste {
+      background-color: lightblue;
+      font-weight: bold;
+    }
+
+    .table-bordered {
+      border: 2px solid blue !important;
+    }
+
+    .cuerpo {
+      background-color: #ffd994;
+    }
+
+    .code-viewer {
+      background-color: #282a3a;
+      color: #d4d4d4;
+      border-radius: 5px;
+      padding: 10px;
+      font-family: 'Courier New', monospace;
+    }
+
+    .code-viewer .keyword {
+      color: #569cd6;
+    }
+
+    .code-viewer .variable {
+      color: #9cdcfe;
+    }
+
+    .code-viewer .constant {
+      color: #d7ba7d;
+    }
+
+    .code-viewer .string {
+      color: #ce9178;
+    }
+
+    .code-viewer .function {
+      color: #c586c0;
+    }
+
+    .code-viewer code {
+      color: #ffffff;
+    }
+
+    .code-viewer .tag {
+      color: #ff9d00;
+      /* Color para los tags */
+    }
+
+    .code-viewer .comment {
+      color: #5c6370;
+      /* Color para los comentarios */
+    }
+
+    .code-viewer .property {
+      color: #82aaff;
+      /* Color para las propiedades */
+    }
+
+    .code-viewer .builtin {
+      color: #c792ea;
+      /* Color para los elementos incorporados */
+    }
+
+
+    /* Añade aquí estilos para otros elementos del código, como comentarios, cadenas, etc. */
+  </style>
+
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navScroll">
+
+  <nav id="navScroll" class="navbar navbar-expand-lg navbar-light fixed-top" tabindex="0">
+    <div class="container">
+      <a class="navbar-brand pe-4 fs-4" href="/">
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-layers-half"
+          viewbox="0 0 16 16">
+          <path
+            d="M8.235 1.559a.5.5 0 0 0-.47 0l-7.5 4a.5.5 0 0 0 0 .882L3.188 8 .264 9.559a.5.5 0 0 0 0 .882l7.5 4a.5.5 0 0 0 .47 0l7.5-4a.5.5 0 0 0 0-.882L12.813 8l2.922-1.559a.5.5 0 0 0 0-.882l-7.5-4zM8 9.433 1.562 6 8 2.567 14.438 6 8 9.433z" />
+        </svg>
+        <span class="ms-1 fw-bolder">Grupo 7</span>
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#services" aria-label="Brings you to the frontpage">
+              XML vs JSON
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#aboutus">
+              XML
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#numbers">
+              JSON
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#gallery">
+              AJAX
+            </a>
+          </li>
+
+
+        </ul>
+
+
+      </div>
+    </div>
+  </nav>
+
+  <main>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/img1 (1).jpg" class="d-block w-100" alt="Image 1">
+           <div class="carousel-caption">
+        <h3 align="text-center">TRABAJO GRUPAL</h3>
+      </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/img1 (2).jpg" class="d-block w-100" alt="Image 2">
+           <div class="carousel-caption">
+        <h3 align="text-center">GRUPO 7</h3>
+      </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/img1 (3).jpg" class="d-block w-100" alt="Image 3">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </a>
+    </div>
+    <div class="w-100 overflow-hidden bg-gray-100" id="top">
+
+      <div class="container position-relative">
+        <div class="col-12 col-lg-8 mt-0 h-100 position-absolute top-0 end-0 bg-cover" data-aos="fade-left"
+          style="background-image: url(img/img.avif);">
+
+        </div>
+        <div class="row">
+
+          <div class="col-lg-7 py-vh-6 position-relative" data-aos="fade-right">
+            <h1 class="display-1 fw-bold mt-5">Trabajo grupal</h1>
+            <p class="lead">Desarrollar un WebSite con el siguiente contenido:<br>
+              a. Elaborar una tabla en el que se especifique las semejanzas y diferencias entre XML y JSON<br>
+              b. Que es XML, desarrolle al menos un ejemplo. <br>
+              c. Que es JSON, desarrolle al menos un ejemplo.<br>
+              d. Que es AJAX, desarrolle al menos un ejemplo.<br>
+            </p>
+            <a href="#" class="btn btn-dark btn-xl shadow me-3 rounded-0 my-5">Empezar</a>
+          </div>
+
+
+
+        </div>
+      </div>
+
+    </div>
+
+    <div class="py-vh-5 w-100 overflow-hidden" id="services">
+      <div class="container">
+        <div class="row d-flex justify-content-end">
+          <div class="col-lg-8" data-aos="fade-down"></div>
+        </div>
+        <div class="container">
+          <h2 class="text-center">Semejanzas y diferencias entre XML y JSON</h2>
+          <table class="table table-bordered">
+            <thead>
+              <tr>
+                <th class="celeste text-center">Aspecto</th>
+                <th class="celeste text-center">Semejanzas</th>
+                <th class="celeste text-center">Diferencias</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="celeste">Formato</td>
+                <td class="cuerpo">Ambos son formatos de texto legibles para humanos y máquinas.</td>
+                <td class="cuerpo">XML utiliza etiquetas de apertura y cierre, mientras que JSON utiliza llaves y
+                  corchetes.</td>
+              </tr>
+              <tr>
+                <td class="celeste">Soporte</td>
+                <td class="cuerpo">Ambos son ampliamente utilizados en el intercambio de datos.</td>
+                <td class="cuerpo">XML es más utilizado en entornos empresariales y lenguajes como SOAP, mientras que
+                  JSON es comúnmente usado en aplicaciones web y RESTful APIs.</td>
+              </tr>
+              <tr>
+                <td class="celeste">Tipos de datos</td>
+                <td class="cuerpo">Ambos pueden representar datos simples y complejos.</td>
+                <td class="cuerpo">XML permite la definición de tipos de datos complejos mediante esquemas, mientras que
+                  JSON se basa en estructuras simples como cadenas, números, booleanos, arrays y objetos anidados.</td>
+              </tr>
+              <tr>
+                <td class="celeste">Legibilidad</td>
+                <td class="cuerpo">Ambos son legibles para los desarrolladores debido a su estructura jerárquica.</td>
+                <td class="cuerpo">JSON es generalmente más legible y conciso que XML.</td>
+              </tr>
+              <tr>
+                <td class="celeste">Extensibilidad</td>
+                <td class="cuerpo">Tanto XML como JSON permiten la extensión mediante el uso de etiquetas o propiedades
+                  personalizadas.</td>
+                <td class="cuerpo">XML tiene un mecanismo más formal para la extensibilidad a través de la definición de
+                  esquemas y namespaces, mientras que en JSON la extensibilidad es más flexible pero menos estructurada.
+                </td>
+              </tr>
+              <tr>
+                <td class="celeste">Compatibilidad con APIs</td>
+                <td class="cuerpo">Ambos formatos son compatibles con una amplia variedad de lenguajes de programación y
+                  tienen librerías y herramientas disponibles para su manipulación.</td>
+                <td class="cuerpo">Algunos lenguajes y frameworks pueden tener mejor soporte nativo para XML o JSON, lo
+                  que puede influir en la elección del formato a utilizar.</td>
+              </tr>
+              <tr>
+                <td class="celeste">Facilidad de uso</td>
+                <td class="cuerpo">JSON es generalmente más fácil de usar y comprender para los desarrolladores debido a
+                  su sintaxis más concisa.</td>
+                <td class="cuerpo">XML puede resultar más verboso y complicado de escribir y analizar en comparación con
+                  JSON.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="py-vh-4 bg-gray-100 w-100 overflow-hidden" id="aboutus">
+        <div class="container">
+          <h2 class="text-center" style="color: rgb(75, 75, 75)">XML</h2> <br>
+          <p>XML (Extensible Markup Language) es un lenguaje de marcado utilizado en sistemas web para estructurar,
+            almacenar y transportar datos. Permite representar información legible tanto para humanos como para
+            máquinas. XML es flexible y extensible, lo que permite definir estructuras de datos personalizadas. Se
+            utiliza para intercambiar datos entre aplicaciones, configurar servicios web, almacenar información
+            estructurada en bases de datos y más. XML es independiente del lenguaje y la plataforma, lo que facilita el
+            intercambio de datos entre diferentes sistemas y aplicaciones web.</p>
+          <h3>Codigo XML</h2>
+
+            <div class="docs-code-block code-viewer">
+              <pre class="shadow-lg rounded"><code class="xml hljs">
+    <span class="tag">&lt;libros&gt;</span>
+      <span class="tag">&lt;libro&gt;</span>
+        <span class="tag">&lt;titulo&gt;</span>El Gran Gatsby<span class="tag">&lt;/titulo&gt;</span>
+        <span class="tag">&lt;autor&gt;</span>F. Scott Fitzgerald<span class="tag">&lt;/autor&gt;</span>
+        <span class="tag">&lt;anio&gt;</span>1925<span class="tag">&lt;/anio&gt;</span>
+        <span class="tag">&lt;editorial&gt;</span>Penguin Books<span class="tag">&lt;/editorial&gt;</span>
+      <span class="tag">&lt;/libro&gt;</span>
+      <span class="tag">&lt;libro&gt;</span>
+        <span class="tag">&lt;titulo&gt;</span>Cien años de soledad<span class="tag">&lt;/titulo&gt;</span>
+        <span class="tag">&lt;autor&gt;</span>Gabriel García Márquez<span class="tag">&lt;/autor&gt;</span>
+        <span class="tag">&lt;anio&gt;</span>1967<span class="tag">&lt;/anio&gt;</span>
+        <span class="tag">&lt;editorial&gt;</span>Editorial Sudamericana<span class="tag">&lt;/editorial&gt;</span>
+      <span class="tag">&lt;/libro&gt;</span>
+      <span class="tag">&lt;libro&gt;</span>
+        <span class="tag">&lt;titulo&gt;</span>1984<span class="tag">&lt;/titulo&gt;</span>
+        <span class="tag">&lt;autor&gt;</span>George Orwell<span class="tag">&lt;/autor&gt;</span>
+        <span class="tag">&lt;anio&gt;</span>1949<span class="tag">&lt;/anio&gt;</span>
+        <span class="tag">&lt;editorial&gt;</span>Secker Warburg<span class="tag">&lt;/editorial&gt;</span>
+      <span class="tag">&lt;/libro&gt;</span>
+      <span class="tag">&lt;libro&gt;</span>
+        <span class="tag">&lt;titulo&gt;</span>Moby-Dick<span class="tag">&lt;/titulo&gt;</span>
+        <span class="tag">&lt;autor&gt;</span>Herman Melville<span class="tag">&lt;/autor&gt;</span>
+        <span class="tag">&lt;anio&gt;</span>1851<span class="tag">&lt;/anio&gt;</span>
+        <span class="tag">&lt;editorial&gt;</span>Harper Brothers<span class="tag">&lt;/editorial&gt;</span>
+      <span class="tag">&lt;/libro&gt;</span>
+      <span class="tag">&lt;libro&gt;</span>
+        <span class="tag">&lt;titulo&gt;</span>Don Quijote de la Mancha<span class="tag">&lt;/titulo&gt;</span>
+        <span class="tag">&lt;autor&gt;</span>Miguel de Cervantes<span class="tag">&lt;/autor&gt;</span>
+        <span class="tag">&lt;anio&gt;</span>1605<span class="tag">&lt;/anio&gt;</span>
+        <span class="tag">&lt;editorial&gt;</span>Francisco de Robles<span class="tag">&lt;/editorial&gt;</span>
+      <span class="tag">&lt;/libro&gt;</span>
+      <span class="tag">&lt;libro&gt;</span>
+        <span class="tag">&lt;titulo&gt;</span>Orgullo y prejuicio<span class="tag">&lt;/titulo&gt;</span>
+        <span class="tag">&lt;autor&gt;</span>Jane Austen<span class="tag">&lt;/autor&gt;</span>
+        <span class="tag">&lt;anio&gt;</span>1813<span class="tag">&lt;/anio&gt;</span>
+        <span class="tag">&lt;editorial&gt;</span>Thomas Egerton<span class="tag">&lt;/editorial&gt;</span>
+      <span class="tag">&lt;/libro&gt;</span>
+      <span class="tag">&lt;libro&gt;</span>
+        <span class="tag">&lt;titulo&gt;</span>Ulises<span class="tag">&lt;/titulo&gt;</span>
+        <span class="tag">&lt;autor&gt;</span>James Joyce<span class="tag">&lt;/autor&gt;</span>
+        <span class="tag">&lt;anio&gt;</span>1922<span class="tag">&lt;/anio&gt;</span>
+        <span class="tag">&lt;editorial&gt;</span>Sylvia Beach<span class="tag">&lt;/editorial&gt;</span>
+      <span class="tag">&lt;/libro&gt;</span>
+      <span class="tag">&lt;libro&gt;</span>
+        <span class="tag">&lt;titulo&gt;</span>En busca del tiempo perdido<span class="tag">&lt;/titulo&gt;</span>
+        <span class="tag">&lt;autor&gt;</span>Marcel Proust<span class="tag">&lt;/autor&gt;</span>
+        <span class="tag">&lt;anio&gt;</span>1913<span class="tag">&lt;/anio&gt;</span>
+        <span class="tag">&lt;editorial&gt;</span>Grasset<span class="tag">&lt;/editorial&gt;</span>
+      <span class="tag">&lt;/libro&gt;</span>
+      <span class="tag">&lt;libro&gt;</span>
+        <span class="tag">&lt;titulo&gt;</span>El señor de los anillos<span class="tag">&lt;/titulo&gt;</span>
+        <span class="tag">&lt;autor&gt;</span>J.R.R. Tolkien<span class="tag">&lt;/autor&gt;</span>
+        <span class="tag">&lt;anio&gt;</span>1954<span class="tag">&lt;/anio&gt;</span>
+        <span class="tag">&lt;editorial&gt;</span>Allen Unwin<span class="tag">&lt;/editorial&gt;</span>
+      <span class="tag">&lt;/libro&gt;</span>
+      <span class="tag">&lt;libro&gt;</span>
+        <span class="tag">&lt;titulo&gt;</span>Harry Potter y la piedra filosofal<span class="tag">&lt;/titulo&gt;</span>
+        <span class="tag">&lt;autor&gt;</span>J.K. Rowling<span class="tag">&lt;/autor&gt;</span>
+        <span class="tag">&lt;anio&gt;</span>1997<span class="tag">&lt;/anio&gt;</span>
+        <span class="tag">&lt;editorial&gt;</span>Bloomsbury<span class="tag">&lt;/editorial&gt;</span>
+      <span class="tag">&lt;/libro&gt;</span>
+    <span class="tag">&lt;/libros&gt;</span>
+    </code></pre>
+            </div>
+
+
+            <br>
+            <h1>Lista de Libros</h1>
+            <ul id="lista-libros"></ul>
+            <div>
+
+            </div>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="py-vh-5 w-100 overflow-hidden" id="numbers">
+      <div class="container">
+        <h2 class="text-center" style="color: rgb(75, 75, 75)">JSON</h2>
+        <p>JSON (JavaScript Object Notation) es un formato de intercambio de datos utilizado en sistemas web. Es ligero,
+          legible para humanos y fácilmente interpretable por las máquinas. JSON se basa en una estructura de pares
+          clave-valor y se utiliza ampliamente para transmitir datos entre aplicaciones web. Es especialmente popular en
+          el desarrollo de servicios web RESTful y APIs. JSON permite representar de manera eficiente datos
+          estructurados como objetos, arreglos, cadenas de texto, números y valores booleanos. Además, es compatible con
+          una amplia variedad de lenguajes de programación, lo que lo hace muy versátil en entornos web.</p>
+        <h3>Codigo JS</h3>
+
+        <div class="docs-code-block code-viewer">
+          <pre class="shadow-lg rounded"><code class="javascript hljs">
+      <span class="comment">// Cargar el archivo JSON</span>
+      <span class="builtin">fetch</span>(<span class="string">"peliculas.json"</span>)
+        .<span class="builtin">then</span>(response <span class="operator">=&gt;</span> response.<span class="builtin">json</span>())
+        .<span class="builtin">then</span>(data <span class="operator">=&gt;</span> <span class="function">mostrarPeliculas</span>(data));
+    };
+  
+    <span class="function">function</span> mostrarPeliculas(data) {
+      <span class="keyword">var</span> listaPeliculas <span class="operator">=</span> document.getElementById(<span class="string">"lista-peliculas"</span>);
+  
+      data.peliculas.forEach(<span class="function">(pelicula)</span> <span class="operator">=&gt;</span> {
+        <span class="keyword">var</span> titulo <span class="operator">=</span> pelicula.titulo;
+        <span class="keyword">var</span> director <span class="operator">=</span> pelicula.director;
+        <span class="keyword">var</span> anio <span class="operator">=</span> pelicula.anio;
+        <span class="keyword">var</span> genero <span class="operator">=</span> pelicula.genero;
+        <span class="keyword">var</span> li <span class="operator">=</span> document.createElement(<span class="string">"li"</span>);
+        <span class="keyword">var</span> texto <span class="operator">=</span> document.createTextNode(titulo <span class="operator">+</span> <span class="string">" - "</span> <span class="operator">+</span> director <span class="operator">+</span> <span class="string">" ("</span> <span class="operator">+</span> anio <span class="operator">+</span> <span class="string">") - "</span> <span class="operator">+</span> genero);
+        li.appendChild(texto);
+        listaPeliculas.appendChild(li);
+      });
+    }
+  </code></pre>
+        </div>
+
+        <h3>Archivo JSON</h3>
+
+        <div class="docs-code-block code-viewer">
+          <pre class="shadow-lg rounded"><code class="javascript hljs">
+   <span class="class">{
+    <span class="property">&quot;peliculas&quot;</span>: [
+      {
+        <span class="property">&quot;titulo&quot;</span>: <span class="string">&quot;El Padrino&quot;</span>,
+        <span class="property">&quot;director&quot;</span>: <span class="string">&quot;Francis Ford Coppola&quot;</span>,
+        <span class="property">&quot;anio&quot;</span>: <span class="string">&quot;1972&quot;</span>,
+        <span class="property">&quot;genero&quot;</span>: <span class="string">&quot;Drama&quot;</span>
+      },
+      {
+        <span class="property">&quot;titulo&quot;</span>: <span class="string">&quot;El Resplandor&quot;</span>,
+        <span class="property">&quot;director&quot;</span>: <span class="string">&quot;Stanley Kubrick&quot;</span>,
+        <span class="property">&quot;anio&quot;</span>: <span class="string">&quot;1980&quot;</span>,
+        <span class="property">&quot;genero&quot;</span>: <span class="string">&quot;Suspenso&quot;</span>
+      },
+      {
+        <span class="property">&quot;titulo&quot;</span>: <span class="string">&quot;Regreso al Futuro&quot;</span>,
+        <span class="property">&quot;director&quot;</span>: <span class="string">&quot;Robert Zemeckis&quot;</span>,
+        <span class="property">&quot;anio&quot;</span>: <span class="string">&quot;1985&quot;</span>,
+        <span class="property">&quot;genero&quot;</span>: <span class="string">&quot;Ciencia ficción&quot;</span>
+      },
+      {
+        <span class="property">&quot;titulo&quot;</span>: <span class="string">&quot;Pulp Fiction&quot;</span>,
+        <span class="property">&quot;director&quot;</span>: <span class="string">&quot;Quentin Tarantino&quot;</span>,
+        <span class="property">&quot;anio&quot;</span>: <span class="string">&quot;1994&quot;</span>,
+        <span class="property">&quot;genero&quot;</span>: <span class="string">&quot;Crimen&quot;</span>
+      },
+      {
+        <span class="property">&quot;titulo&quot;</span>: <span class="string">&quot;Matrix&quot;</span>,
+        <span class="property">&quot;director&quot;</span>: <span class="string">&quot;The Wachowskis&quot;</span>,
+        <span class="property">&quot;anio&quot;</span>: <span class="string">&quot;1999&quot;</span>,
+        <span class="property">&quot;genero&quot;</span>: <span class="string">&quot;Acción&quot;</span>
+      }
+    ]
+  }
+  
+</code></pre>
+        </div>
+
+        <h1>Lista de Películas</h1>
+        <ul id="lista-peliculas"></ul>
+        <div>
+
+        </div>
+
+
+
+      </div>
+    </div>
+
+    <div class="position-relative overflow-hidden w-100 bg-light" id="gallery">
+      <div class="container">
+        <h2 class="text-center" style="color: rgb(75, 75, 75)">AJAX</h2>
+        <p>
+          AJAX (Asynchronous JavaScript and XML) es una técnica utilizada en sistemas web para realizar comunicaciones
+          asíncronas entre el cliente y el servidor. Permite cargar y actualizar datos en una página web sin tener que
+          recargarla por completo. AJAX combina varias tecnologías, como JavaScript, XML o JSON y el objeto
+          XMLHttpRequest, para enviar y recibir datos en segundo plano. Esta técnica mejora la experiencia del usuario
+          al proporcionar respuestas rápidas y dinámicas. Permite cargar contenido adicional, enviar formularios y
+          actualizar partes específicas de una página sin interrumpir la interacción del usuario.</p>
+        <h3>Codigo AJAX</h2>
+
+          <div class="docs-code-block code-viewer">
+            <pre class="shadow-lg rounded"><code class="javascript hljs">
+        <span class="comment">// Cargar usuarios al cargar la página</span>
+        window.onload = <span class="function">function</span>() {
+          cargarUsuarios();
+        };
+    
+        <span class="function">function</span> cargarUsuarios() {
+          <span class="keyword">var</span> xhttp = <span class="keyword">new</span> XMLHttpRequest();
+          xhttp.onreadystatechange = <span class="function">function</span>() {
+            <span class="keyword">if</span> (this.readyState === 4 &amp;&amp; this.status === 200) {
+              <span class="keyword">var</span> data = this.responseXML;
+              mostrarUsuarios(data);
+            }
+          };
+          xhttp.open(<span class="string">"GET"</span>, <span class="string">"usuarios.xml"</span>, <span class="keyword">true</span>);
+          xhttp.send();
+        }
+    
+        <span class="function">function</span> mostrarUsuarios(data) {
+          <span class="keyword">var</span> listaUsuarios = document.getElementById(<span class="string">"lista-usuarios"</span>);
+          <span class="keyword">var</span> usuarios = data.getElementsByTagName(<span class="string">"usuario"</span>);
+    
+          <span class="keyword">for</span> (var i = 0; i &lt; usuarios.length; i++) {
+            <span class="keyword">var</span> nombre = usuarios[i].getElementsByTagName(<span class="string">"nombre"</span>)[0].textContent;
+            <span class="keyword">var</span> email = usuarios[i].getElementsByTagName(<span class="string">"email"</span>)[0].textContent;
+    
+            <span class="keyword">var</span> li = document.createElement(<span class="string">"li"</span>);
+            <span class="keyword">var</span> texto = document.createTextNode(nombre + <span class="string">" - "</span> + email);
+            li.appendChild(texto);
+            listaUsuarios.appendChild(li);
+          }
+        }
+    </code></pre>
+          </div>
+
+          <h1>Lista de Usuarios</h1>
+          <ul id="lista-usuarios"></ul>
+          <div>
+
+          </div>
+
+      </div>
+
+    </div>
+    </div>
+
+
+  
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 800, // values from 0 to 3000, with step 50ms
+      });
+    </script>
+
+    <script>
+      let scrollpos = window.scrollY
+      const header = document.querySelector(".navbar")
+      const header_height = header.offsetHeight
+
+      const add_class_on_scroll = () => header.classList.add("scrolled", "shadow-sm")
+      const remove_class_on_scroll = () => header.classList.remove("scrolled", "shadow-sm")
+
+      window.addEventListener('scroll', function () {
+        scrollpos = window.scrollY;
+
+        if (scrollpos >= header_height) {
+          add_class_on_scroll()
+        } else {
+          remove_class_on_scroll()
+        }
+
+        console.log(scrollpos)
+      })
+    </script>
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    // Configurar el carrusel para que se mueva automáticamente
+    var myCarousel = document.getElementById('carouselExampleIndicators');
+    var carousel = new bootstrap.Carousel(myCarousel, {
+      interval: 3000, // Cambia cada 3 segundos (3000 milisegundos)
+      wrap: true // Reproduce automáticamente desde el principio después de llegar al último slide
+    });
+  </script>
+</body>
+
+</html>

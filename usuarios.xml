@@ -1,0 +1,18 @@
+<usuarios>
+  <usuario>
+    <nombre>Juan Pérez</nombre>
+    <email>juan.perez@example.com</email>
+  </usuario>
+  <usuario>
+    <nombre>María Gómez</nombre>
+    <email>maria.gomez@example.com</email>
+  </usuario>
+  <usuario>
+    <nombre>Carlos Rodríguez</nombre>
+    <email>carlos.rodriguez@example.com</email>
+  </usuario>
+  <usuario>
+    <nombre>Ana López</nombre>
+    <email>ana.lopez@example.com</email>
+  </usuario>
+</usuarios>

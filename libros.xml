@@ -1,0 +1,62 @@
+<libros>
+  <libro>
+    <titulo>El Gran Gatsby</titulo>
+    <autor>F. Scott Fitzgerald</autor>
+    <anio>1925</anio>
+    <editorial>Penguin Books</editorial>
+  </libro>
+  <libro>
+    <titulo>Cien años de soledad</titulo>
+    <autor>Gabriel García Márquez</autor>
+    <anio>1967</anio>
+    <editorial>Editorial Sudamericana</editorial>
+  </libro>
+  <libro>
+    <titulo>1984</titulo>
+    <autor>George Orwell</autor>
+    <anio>1949</anio>
+    <editorial>Secker  Warburg</editorial>
+  </libro>
+  <libro>
+    <titulo>Moby-Dick</titulo>
+    <autor>Herman Melville</autor>
+    <anio>1851</anio>
+    <editorial>Harper  Brothers</editorial>
+  </libro>
+  <libro>
+    <titulo>Don Quijote de la Mancha</titulo>
+    <autor>Miguel de Cervantes</autor>
+    <anio>1605</anio>
+    <editorial>Francisco de Robles</editorial>
+  </libro>
+  <libro>
+    <titulo>Orgullo y prejuicio</titulo>
+    <autor>Jane Austen</autor>
+    <anio>1813</anio>
+    <editorial>Thomas Egerton</editorial>
+  </libro>
+  <libro>
+    <titulo>Ulises</titulo>
+    <autor>James Joyce</autor>
+    <anio>1922</anio>
+    <editorial>Sylvia Beach</editorial>
+  </libro>
+  <libro>
+    <titulo>En busca del tiempo perdido</titulo>
+    <autor>Marcel Proust</autor>
+    <anio>1913</anio>
+    <editorial>Grasset</editorial>
+  </libro>
+  <libro>
+    <titulo>El señor de los anillos</titulo>
+    <autor>J.R.R. Tolkien</autor>
+    <anio>1954</anio>
+    <editorial>Allen Unwin</editorial>
+  </libro>
+  <libro>
+    <titulo>Harry Potter y la piedra filosofal</titulo>
+    <autor>J.K. Rowling</autor>
+    <anio>1997</anio>
+    <editorial>Bloomsbury</editorial>
+  </libro>
+</libros>
